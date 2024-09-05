@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.modal{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    height:99vh;
+    width:99vw;
+    display: none;
+}
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.close-button {
+    font-size: 50px;
+}
